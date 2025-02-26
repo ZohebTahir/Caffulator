@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.page-one {
+    border: 5px solid;
+    display: flex; 
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
