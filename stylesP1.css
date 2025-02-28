@@ -1,11 +1,13 @@
-body {
+html, body {
     margin: 0;
+    box-sizing: 100%;
+    padding: 10px;
 }
 
 .page-one {
+    height: 100%;
     border: 5px solid;
     display: flex; 
-    height: 100%;
     flex-direction: column;
     align-items: center;
 }
