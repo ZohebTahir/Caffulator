@@ -6,7 +6,11 @@ html, body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.page-two {
+/* .page-two {
+ 
+} */
+
+.caffeine-blocks {
     height: 100vh;
     display: center;
     border: 5px solid;
@@ -14,22 +18,26 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
-
-.caffeine-blocks {
     border: 5px solid;
     display: flex;
 }
 
+h2 {
+    flex:1; 
+}
+
 #block-red {
-    flex:1
+    flex:1;
+    font-weight: bold;
 }
 
 #block-yellow {
-    flex:1
+    flex:1;
+    font-weight: bold;
 }
 
 
 #block-green {
-    flex:1
+    flex:1;
+    font-weight: bold;
 }

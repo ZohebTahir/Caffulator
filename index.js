@@ -1,10 +1,12 @@
-const time = document.querySelector('.input');
+const timeInput = document.getElementById('input-time');
 const read = document.querySelector('.read');
 
-time.addEventListener(
+timeInput.addEventListener(
     "input", 
     () => {
-        read.innerText = time.value;
+        read.innerText = timeInput.value;
     },
     false,
 );
+
+console.log(timeInput.value);

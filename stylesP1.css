@@ -12,32 +12,35 @@ html, body {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
 .logo {
     font-weight: bold;
     font-size: 3em;
-    flex: 2;
+    /* flex: 2; */
 
 }
 
-.sentence {
+.caffeine-input-statement {
     font-weight: bold;
     font-size: 2em;
-    flex: 2;
+    /* flex: 2; */
 
 }
 
-.input, .caffulate-btn {
+#input-time {
     font-weight: bold;
     font-size: 1.5em;
-    flex: 1;
-
+    /* flex: 1; */
+    font-size: 17px;
 
 }
 
-a {
-
+#caffulate-btn {
+    font-weight: bold;
+    font-size: 1.5em;
+    /* flex: 1; */
+    font-size: 15px;
 }
