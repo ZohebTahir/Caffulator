@@ -44,3 +44,23 @@ html, body {
     /* flex: 1; */
     font-size: 15px;
 }
+
+#time-feature {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 6px;
+}
+
+.time-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    text-align: center; 
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+}
