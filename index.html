@@ -10,13 +10,27 @@
     <div class="page-one">
         <h1 class="logo">Caffulator</h1>
         <p class="caffeine-input-statement">I had my last caffeine intake at...</p>
-        <input id="input-time" type="time" value="09:00"></input>
+        <!-- <input id="input-time" type="time" value="09:00"></input> -->
+         <input type="text" class="time-pickable" value="12:45 pm" readonly>
+         <div id="time-feature">
+        <select class="time-select">
+            <option value="01">01</option>
+        </select>
+        :
+        <select class="time-select">
+            <option value="00">00</option>
+        </select>
+        <select class="time-select">
+            <option value="am">am</option>
+            <option value="pm">pm</option>
+        </select>
         <button id="caffulate-btn">Caffulate!</button>
         <p class="read"></p>
+        </div>
     </div>
     
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
 </body>
 </html>
 
-<!-- <a href="index2.html"></a> caffulate-btn anchor -->
+<!-- <a href="index2.html"></a> -->
